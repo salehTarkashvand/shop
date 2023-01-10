@@ -1,0 +1,25 @@
+@font-face {
+    font-family:header;
+    src: url(/fonts/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family:header2;
+    src: url(/fonts/Raleway-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family:light;
+    src: url(/fonts/Raleway-Light.ttf);
+}
+*{
+    direction: rtl;
+    font-family: light;
+    box-sizing:border-box;
+    
+}
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
