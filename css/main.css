@@ -12,7 +12,8 @@
 }
 *{
     direction: rtl;
-    font-family: light;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
     box-sizing:border-box;
     
 }

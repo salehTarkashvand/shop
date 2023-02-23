@@ -4,46 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Barlow:wght@100&amp;display=swap'><link rel="stylesheet" href="./style.css">
     <link href="css/home.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    
+    <link href="src/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="only-css-glitch-effect/dist/style.css">
+    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     
     <title>lospepes</title>
 </head>
 <body>
-<header style="text-align: center;">
-    <p>MEGHDAR PISH PARDAKHT </p>
-    <input type="number"  id="prepayment">
-    <p>DARSAD SOD BANKI </p>
-    <input id="interestRate" type="number">
-    <p>MEGHDAR VAM DARKHASTI</p>
-    <input id="loanAmount" type="number">
-    <p>TEDAD GHESTA</p>
-    <input type="number" id="numberOfInstallments">
-    <br>
-    <br>
-    <button onclick="loan()" type="button">
-        go 
-    </button>
-    <p id="LoanIntrest">00</p>
-    <p id="installment">00</p>
-    <p id="totalloanamount">00</p>
-    <p id="amountOfInstallment">00</p>
+<header>
     
-    <p class="slm"></p>
+    <!-- <p>DARSAD SOD BANKI </p>
+     <input id="interestRate" type="number"> 
+     <p>Meghadar Vam Darkhasti</p>
+     <input id="loanAmount" type="number">
+     <p> Tedad Ghesta </p>
+     <input id="numberOfInstallments" type="number" >
+     <br>
+     <br>
+     <button onclick="Loan()" type="button">
+         GO 
+     </button>
+     <p id="installment"></p>
+     <p id="installment"></p>
+    <p id="totalloanamount"></p>
+    <p id="amountOfInstallment"></p>
+    
+    <p class="slm"></p> -->
     <nav>
         <div class="nav-right">
-        
+            <a href=""><i><img src="icons/house.svg" alt="icon"width="25" height="25"></i></a>
+            <a href=""><i><img src="icons/bag.svg" alt="icon"width="22" height="22"></i></a>
+            <a href=""><i><img src="icons/search.svg" alt="icon"width="22" height="22"></i></a>
         </div>
         <div class="nav-left">
-
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <!--<div class="register-login-btn">
+                <i class="fas fa-user"></i>
+                <a href="#">login</a>
+            </div>-->
         </div>
     </nav>
+
+    <section class="logo">
+        <div class="stack " style="--stacks: 3;">
+          <span class="stack-text" style="--index: 0;">LOSPEPES</span>
+          <span class="stack-text" style="--index: 1;">LOSPEPES</span>
+          <span class="stack-text" style="--index: 2;">LOSPEPES</span>
+        </div>
+    </section>
+
     <section class="slider">
+        <div class="slides">
+            <div class="item active"id="slide1">
+                <img src="images/slide1new.jpg" alt="">
+                    <div class="text">
+                        <div class="glitch">
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                          <div class="line">This text is written for changes</div>
+                        </div>
+                    </div>
+            </div>
+            <div class="item" id="slide2">
+                <img src="images/slide2new.jpg" alt="">
+                <div class="text">
+                    <div class="glitch">
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                      <div class="line">This text is written for changes</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="slide3" >
+            <img src="images/slide3new.jpg" alt="">
+            <div class="text">
+                <div class="glitch">
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                  <div class="line">This text is written for changes</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="buttons">  
+                <i onclick="setslide('slide1' , 1)"><img src="icons/1-circle-fill.svg" alt="icon"></i>
+                <i onclick="setslide('slide2' , 2)"><img src="icons/2-circle-fill.svg" alt="icon"></i>
+                <i onclick="setslide('slide3' , 3)""><img src="icons/3-circle-fill.svg" alt="icon"></i>
+            </div>
+     
+        </div>
+        
 
     </section>
 </header>
+<script src="main.js"></script>
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
