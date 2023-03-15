@@ -5,9 +5,12 @@ header .logo {
  align-items: center;   
 }
 header .logo .stack span.stack-text{
-    
     font-size: 150px;
     padding: 0px 33px;
+    
+
+
+
     
 }
 /*nav section*/
