@@ -186,7 +186,7 @@
 	left: calc(-1 * var(--gap-horizontal));
 	width: calc(100% + var(--gap-horizontal) * 2);
 	height: calc(100% + var(--gap-vertical) * 2);
-	background: url(/images/1.jpg) no-repeat 50% 0;
+	background: url(/images/IMG_1747.JPG) no-repeat 50% 0;
 	background-color: var(--blend-color-1);
 	background-size: cover;
 	transform: translate3d(0,0,0);
@@ -194,23 +194,23 @@
 }
 
 .glitch--style-2 .glitch__img {
-	background-image: url(/images/2.jpg);
+	background-image: url(/images/IMG_1749.JPG);
 }
 
 .glitch--style-3 .glitch__img {
-	background-image: url(/images/3.jpg);
+	background-image: url(/images/IMG_1750.JPG);
 }
 
 .glitch--style-4 .glitch__img {
-	background-image: url(/images/4.jpg);
+	background-image: url(/images/IMG_1752.JPG);
 }
 
 .glitch--style-5 .glitch__img {
-	background-image: url(/images/5.jpg);
+	background-image: url(/images/IMG_1754.JPG);
 }
 
 .glitch--style-6 .glitch__img {
-	background-image: url(/images/6.jpg);
+	background-image: url(/images/IMG_1755.JPG);
 }
 
 /* Set the background colors for the glitch images*/

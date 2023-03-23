@@ -15,4 +15,4 @@ setInterval(()=>{
         slideInedex=1;
     }
     setslide(`slide${slideInedex}`,slideInedex)
-},4000)
+},8000)
